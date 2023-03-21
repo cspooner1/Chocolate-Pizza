@@ -1,3 +1,179 @@
-header {
-border-style: s;
+nav {
+    font-family: cursive;
+    /* border: 5px;
+    border-style: solid; */
+    width:100%;
+    height: 35px;
+    display:inline-flex;
+    margin-left: 15%;
+    margin-top: 20px;
+}
+
+#logo{
+    /* border-style: solid;
+    border-color: blueviolet; */
+    height: max-content;
+    width: max-content;
+}
+
+h1 {
+    /* border-style: solid; */
+    width: max-;
+    height: max-content;
+    position: relative;
+    bottom: 33px;
+    font-size: 30px;
+}
+
+nav p {
+    font-size:11px;
+    font-family: 'Courier New', Courier, monospace;
+    color: darkgrey;
+    position: relative;
+    top: 20px;
+    right: 122px;
+}
+
+nav div{
+   /* border-style: solid;
+    border-color: blueviolet; */
+    position: relative;
+    left: 25.2%;
+}
+
+#six{
+padding-right: 10px;
+}
+
+#line {
+    width: 100%;
+    display: flex;
+    background-image: url("hr-img.png");
+    height: 15px;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 25px;
+}
+
+.middle{
+    margin-top:7%;
+    margin-left:15%;
+    display:inline-flex;
+    align-items: center;
+    width: 58rem;
+    height: 20px;
+    /* border-style: dashed; */
+    
+}
+
+#print{
+    /* border-style: dotted; */
+    position: relative;
+    bottom:100%;
+    left: 65%;
+    color: darkgrey;
+    font-size: small;
+    font-family:'Courier New', Courier, monospace;
+}
+
+#title p{
+    color: darkgrey;
+    position: relative;
+    bottom: 50px;
+}
+
+#choco{
+    margin-left: 15%;
+    width:70%;
+}
+
+#instructions p{
+    font-size:21px;
+    display: flex;
+    width: 70%;
+    margin-left: 15%;
+    text-align: left;
+    color:grey
+}
+
+.ingredients{
+    background-image: url(list-bg.png);
+    margin-left: 15%;
+    width: 70%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    font-size: 21px;
+    color:rgb(87, 60, 42);
+}
+
+#l1{
+    list-style: square;
+    padding-right: 11%;
+    margin-left: 3%;
+    margin-top: 27px;
+
+}
+
+#l2{
+    list-style: square;
+    margin-top: 27px;
+}
+
+li{
+    margin: 6.5px;;
+}
+
+.van{
+margin-left: 15%;
+margin-top: 2%;
+display: flex;
+/* border-style: dotted; */
+height: 70px;
+margin-bottom:6%;
+}
+
+.van ul{
+    /* border-style: solid; */
+    width: 57%;
+    height: max-content;
+    position: relative;
+    bottom: 50%;
+    right: 2%;
+}
+.van img{
+    width: fit-content;
+    height: fit-content;
+}
+
+.van p{
+    position: relative;
+    right: 15%;
+    bottom: 15px;
+}
+
+button{
+    color: white;
+    background-color: rgba(179, 47, 47, 0.733);
+    width: 13rem;
+   position: relative;
+   right: 4;
+   border-style: none;
+   height: 3.4rem;
+   font-size: large;
+   margin-right: 17.5%;
+}
+
+#slogo{
+    margin-left: 15%;
+position: absolute;
+display: flex;
+align-items: center;
+margin-left: 50%;}
+
+hr{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    line-style:
 }
